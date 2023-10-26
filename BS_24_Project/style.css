@@ -19,6 +19,19 @@ h6 {
     font-family: 'Rubik', sans-serif;
 }
 
+.section-title {
+    margin-bottom: 0;
+}
+
+.hr-style {
+    border: 5px dotted white;
+    border-bottom: none;
+    width: 150px;
+    margin: auto;
+}
+
+/* Header Section */
+
 header {
     background-image: url('/images/banner.jpg');
     background-position: center;
@@ -72,3 +85,30 @@ header {
     padding: 10px 20px;
     border-radius: 5px;
 }
+
+/* Feature section */
+
+#feature {
+    padding: 5% 10%;
+    background: #e5b77c;
+}
+
+.features-col {
+    border: 2px solid rgb(250, 3, 160);
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 20px 0;
+    transition: .4s;
+}
+
+.features-col:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+
+.icon-style {
+    background-color: rgb(224, 6, 129);
+    padding: 15px;
+    margin: 5px 0;
+}
+
