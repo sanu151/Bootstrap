@@ -90,11 +90,12 @@ header {
 
 #feature {
     padding: 5% 10%;
-    background: #e5b77c;
+    background: #3D30A2;
+    color: white;
 }
 
 .features-col {
-    border: 2px solid rgb(250, 3, 160);
+    border: 2px solid rgb(112, 98, 220);
     border-radius: 5px;
     padding: 10px 20px;
     margin: 20px 0;
@@ -112,3 +113,79 @@ header {
     margin: 5px 0;
 }
 
+/* About Me section */
+
+#about-me {
+    padding: 4% 10%;
+    background: #4a3cb9;
+    color: white;
+}
+
+.basic-desc p {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    font-weight: lighter;
+}
+.basic-desc a {
+    font-size: 0.9rem;
+    color: black;
+    font-weight: lighter;
+}
+
+.achive-desc p{
+    font-size: 0.9rem;
+    font-weight: lighter;
+}
+
+.skill-table {
+    font-size: 0.9rem;
+    font-weight: lighter;
+}
+
+.star {
+    width: 20px !important;
+}
+
+/* Tutorial Section */
+
+#tutorial {
+    padding: 4% 10%;
+    background-color: #B15EFF;
+}
+
+.card-col:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+
+/* Feedback Section */
+
+#feedback {
+    padding: 4% 10%;
+    background-color: #FFA33C;
+}
+
+.carousel-item {
+    padding: 5% 15%;
+    text-align: center;
+}
+
+.carousel-item p {
+    font-style: italic;
+}
+
+.carousel-indicators {
+    bottom: -20px;
+}
+
+.carousel-item img {
+    width: 150px;
+    height: auto;
+}
+
+/* Contact Us section  */
+
+#contact-us {
+    padding: 4% 10%;
+    background-color: #FFFB73;
+}
