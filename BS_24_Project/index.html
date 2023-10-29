@@ -361,35 +361,37 @@
             <section id="contact-us">
                 <div class="section-title text-center p-5">
                     <h3 class="fw-bolder">Contact US</h3>
-                    <hr class="hr-style">
+                    <hr class="hr-style" style="border-color: black;">
                 </div>
 
-                <div class="contact-form">
-                    <form action="mailto:das.supriyo07@gmail.com" method="post" enctype="text/plain"
+                <div class="row">
+                    <div class="col-lg-12">
+                        <form action="mailto:das.supriyo07@gmail.com" method="post" enctype="text/plain"
                         class="was-validated p-3">
-                        <div class="form-group">
-                            <div class="form py-2">
-                                <label for="name" class="form-label">Name</label>
-                                <input type="text" id="name" class="form-control">
-                                <p class="form-text">Enter full name before submitting.</p>
-                            </div>
-                            <div class="form py-2">
-                                <label for="email" class="form-label">Email</label>
-                                <input type="email" id="email" class="form-control">
-                                <p class="form-text">Your email would not be share with anyone.</p>
-                            </div>
-                            <div class="form py-2">
-                                <label for="message" class="form-label">Message</label>
-                                <textarea class="form-control" id="message" rows="3"></textarea>
-                            </div>
-                            <div class="text-center pt-3">
-                                <button type="submit"
-                                    class="btn btn-outline-secondary btn-lg me-3 fw-bolder">Submit</button>
-                                <button type="reset"
-                                    class="btn btn-outline-secondary btn-lg ms-3 fw-bolder">Reset</button>
-                            </div>
+
+                        <div class="form-group py-2">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" class="form-control" required >
+                            <div class="valid-feedback">Valid</div>
+                            <div class="invalid-feedback">Enter Your full name before submitting</div>
                         </div>
+                        <div class="form-group py-2">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" class="form-control" required>
+                            <p class="form-text">Your email would not be share with anyone.</p>
+                        </div>
+                        <div class="form-group py-2">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="3"></textarea>
+                        </div>
+                        <div class="text-center pt-3 form-group">
+                            <button type="submit"
+                                class="btn btn-outline-secondary btn-lg me-3 fw-bolder">Submit</button>
+                            <button type="reset" class="btn btn-outline-secondary btn-lg ms-3 fw-bolder">Reset</button>
+                        </div>
+
                     </form>
+                    </div>
                 </div>
 
             </section>
@@ -398,7 +400,18 @@
         </main>
 
         <footer>
-
+            <div class="row">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <p class="small mb-0 mt-1 text-white">&copy; All right reserved</p>
+                </div>
+                <div class="col-lg-6 text-center text-lg-end">
+                    <a href="#">Home</a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
         </footer>
 
     </div>
